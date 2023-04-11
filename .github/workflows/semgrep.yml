@@ -4,7 +4,7 @@ name: Semgrep
 on:
   # Scan changed files in PRs (diff-aware scanning):
   push:
-    branches: ["main"]
+    branches: ["master"]
   # Schedule the CI job (this method uses cron syntax):
   schedule:
     - cron: '20 17 * * *' # Sets Semgrep to scan every day at 17:20 UTC.
