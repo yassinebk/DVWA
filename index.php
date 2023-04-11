@@ -9,6 +9,7 @@ $page = dvwaPageNewGrab();
 $page[ 'title' ]   = 'Welcome' . $page[ 'title_separator' ].$page[ 'title' ];
 $page[ 'page_id' ] = 'home';
 
+
 $page[ 'body' ] .= "
 <div class=\"body_padded\">
 	<h1>Welcome to Damn Vulnerable Web Application!</h1>
